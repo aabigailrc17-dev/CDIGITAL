@@ -28,36 +28,101 @@
                 <li><a href="normativos.html">Certificaciones TI</a></li>
                 <li><a href="biblioteca.html">Biblioteca y Recursos</a></li>
                 <li><a href="laboral.html">Mercado Laboral</a></li>
-                <li><a href="manual.html">Manual de Usuario</a></li>
+                <li><a href="manual.html">Anexos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>2.a Antecedentes y Entorno de la Ciudadanía Digital</h2>
-            
-            <h3>Iniciativa México Digital</h3>
-            <p>México Digital es una iniciativa de proyecto que busca fomentar el desarrollo de una cultura digital en México, modulando la construcción de alianzas y la realización de proyectos público-privados, además de la generación de contenidos que aporten a la economía digital y el desarrollo del país de cara a la cuarta revolución industrial.</p>
+        <!-- ==========================================
+            SECCIÓN: ANTECEDENTES Y ENTORNO (ESTILO EDITORIAL / MAGAZINE)
+            ========================================== -->
+        <section class="magazine-section">
+            <div class="magazine-header">
+                <span class="magazine-badge">Enfoque Nacional</span>
+                <h2>Antecedentes y Entorno de la Ciudadanía Digital en México</h2>
+                <p class="magazine-lead">Un recorrido analítico desde las primeras bases normativas de la infraestructura hasta las barreras socioculturales del usuario contemporáneo.</p>
+            </div>
 
-            <h3>1.1 Contextos y Antecedentes</h3>
-            <ul>
-                <li><strong>1.1.1 Origen:</strong> Surgimiento y evolución de la conectividad en el país.</li>
-                <li><strong>1.1.2 Contexto social, político y económico:</strong> Análisis situacional basado en el <em>Informe sobre la economía digital 2021</em>.</li>
-            </ul>
+            <!-- 1. CONTEXTO HISTÓRICO -->
+            <article class="magazine-article">
+                <div class="article-meta">
+                    <span class="step-num">01</span>
+                    <h3>Contexto Histórico y Origen</h3>
+                </div>
+                <p class="intro-text">La transición de México hacia un entorno digital no ocurrió de forma espontánea; ha sido el resultado de una evolución paulatina de políticas de gobernanza que se pueden dividir en tres grandes etapas de maduración tecnológica:</p>
+                
+                <div class="editorial-blocks">
+                    <div class="block-item">
+                        <h4>Fase de Informatización Inicial (1994 - 2006)</h4>
+                        <p>Los primeros esfuerzos se centraron en digitalizar las bases de datos de la administración pública y en introducir el concepto de Gobierno Electrónico. El enfoque era puramente administrativo (interno) y el acceso ciudadano era sumamente limitado debido a los altos costos de los equipos y la nula infraestructura de red.</p>
+                    </div>
+                    
+                    <div class="block-item highlight-border">
+                        <h4>La Consolidación Normativa (2012 - 2018)</h4>
+                        <p>El verdadero punto de inflexión constitucional se dio el 11 de junio de 2013 con la publicación de la Reforma en Telecomunicaciones. Esta reforma modificó de forma histórica el <strong>Artículo 6º de la Constitución Política Mexicana</strong>, elevando a rango constitucional el derecho de libre acceso a las Tecnologías de la Información y la Comunicación (TIC), a la banda ancha y a los servicios de radiodifusión y telecomunicaciones.</p>
+                    </div>
+                    
+                    <div class="block-item">
+                        <h4>La Unificación de la Estrategia (2013 - Presente)</h4>
+                        <p>Derivado de la reforma constitucional, en noviembre de 2013 se presentó formalmente la primera Estrategia Digital Nacional (EDN) "México Digital". Esta iniciativa buscó unificar los esfuerzos tecnológicos del Estado bajo un portal único federal (<a href="https://www.gob.mx" target="_blank" class="editorial-link">gob.mx</a>), transformando la relación gobierno-ciudadano y sentando las bases operativas de la identidad digital interoperable en el país.</p>
+                    </div>
+                </div>
+            </article>
 
-            <h3>1.2 Evolución Tecnológica y Generacional</h3>
-            <ul>
-                <li><strong>De la primera revolución industrial a la industria 5.0:</strong> Línea del tiempo de la evolución tecnológica.</li>
-                <li><strong>Características generacionales:</strong> Adaptación de los distintos grupos de edad ante las TIC.</li>
-                <li><strong>Barreras estructurales:</strong> Retos de infraestructura y cobertura en el territorio nacional.</li>
-                <li><strong>Perfil deseable:</strong> Atributos óptimos del nuevo ciudadano digital en México.</li>
-            </ul>
+            <hr class="magazine-divider">
+
+            <!-- 2. CONTEXTO POLÍTICO, SOCIAL Y ECONÓMICO -->
+            <article class="magazine-article">
+                <div class="article-meta">
+                    <span class="step-num">02</span>
+                    <h3>Contexto Político, Social y Económico Actual (El Entorno)</h3>
+                </div>
+                <p class="intro-text">El ecosistema digital mexicano actual presenta un panorama híbrido, caracterizado por un crecimiento exponencial en la conectividad móvil, pero condicionado por marcadas asimetrías estructurales.</p>
+
+                <!-- Subsección A -->
+                <div class="sub-article">
+                    <h4>A. De la Primera Revolución Industrial a la Industria 5.0</h4>
+                    <p>México enfrenta el reto de incorporarse plenamente a la automatización avanzada, el internet de las cosas (IoT) y la Inteligencia Artificial (Industria 5.0). Sin embargo, la transición de la manufactura tradicional a una economía basada en el conocimiento y los bienes digitales se ve frenada por la velocidad de la capacitación técnica local.</p>
+                </div>
+
+                <!-- Subsección B -->
+                <div class="sub-article">
+                    <h4>B. Características Generacionales y Dispositivos de Acceso</h4>
+                    <p>El perfil del usuario mexicano ha cambiado drásticamente en la última década debido al fenómeno de la "Web 2.0" y la diversificación tecnológica:</p>
+                    <div class="editorial-quote-box">
+                        <p><strong>El Smartphone como Rey:</strong> Según los datos históricos de la ENDUTIH recopilados por el INEGI, el teléfono inteligente se ha consolidado como el dispositivo primordial de acceso, representando más del 95% de las conexiones a internet en el país.</p>
+                        <p class="mt-2"><strong>El Descenso de la Computadora:</strong> Contrario al crecimiento del uso de internet, la disponibilidad de computadoras de escritorio o portátiles en los hogares ha mostrado ligeras disminuciones o estancamientos. Esto genera un fenómeno particular: la población es "nativa móvil", pero carece en muchas ocasiones de las pantallas o interfaces necesarias para el desarrollo de competencias laborales complejas (como programación o diseño avanzado).</p>
+                    </div>
+                </div>
+
+                <!-- Subsección C -->
+                <div class="sub-article">
+                    <h4>C. Barreras Estructurales (La Brecha Digital)</h4>
+                    <p>No se puede hablar de una ciudadanía digital plena sin analizar las limitantes del entorno nacional:</p>
+                    <ul>
+                        <li><strong>Brecha Geográfica y Socioeconómica:</strong> El acceso a la infraestructura de telecomunicaciones sigue concentrado en las grandes urbes y estados del norte/centro del país, dejando rezagadas a las comunidades rurales del sur global, donde la falta de educación digital limita el uso de la tecnología a fines de mero entretenimiento en lugar de participación cívica.</li>
+                        <li><strong>Brecha de Género Digital:</strong> Persisten asimetrías en el acceso y uso especializado de herramientas en la nube, ciberseguridad y áreas STEM entre hombres y mujeres, un desafío que las políticas públicas actuales buscan erradicar.</li>
+                    </ul>
+                </div>
+
+                <!-- Subsección D: Perfil Deseable (Tarjeta de Enfoque Final) -->
+                <div class="profile-callout">
+                    <h4>D. Perfil Deseable del Ciudadano Digital Mexicano</h4>
+                    <p>Para solventar estos retos, las agendas educativas y la nueva <strong>Agencia de Transformación Digital y Telecomunicaciones (ATDT)</strong> promueven que el mexicano evolucione hacia un perfil de <strong>Ciudadano Digital Crítico</strong>. Esto implica transicionar de ser un simple receptor pasivo de información a un sujeto activo capaz de:</p>
+                    <ol class="editorial-list">
+                        <li>Garantizar el uso seguro, ético y responsable de sus datos personales.</li>
+                        <li>Aprovechar la infraestructura pública digital para ejercer trámites expeditos y transparentes a través de herramientas oficiales.</li>
+                        <li>Utilizar las plataformas digitales como un canal legítimo de participación política, e-democracia y rendición de cuentas comunitarias.</li>
+                    </ol>
+                </div>
+            </article>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2026 - UPIICSA - IPN.</p>
+        <p>&copy; Ale y Vane.</p>
     </footer>
 
 </body>
